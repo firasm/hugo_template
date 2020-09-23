@@ -22,6 +22,9 @@ jobs:
           hugo-version: '0.75.1'
           extended: true
 
+      - name: Build
+        run: hugo --minify --cleanDestinationDir
+
       # Push the book's HTML to github-pages
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3

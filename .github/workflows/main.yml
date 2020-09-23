@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --cleanDestinationDir
+        run: hugo --minify --cleanDestinationDir
 
       # Push the book's HTML to github-pages
       - name: GitHub Pages action

@@ -1,5 +1,5 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://firasm.github.io/hugo_template/x"
+title = "Notre-Dame de Paris Demo"
+baseURL = "https://firasm.github.io/hugo_template/"
 languageCode = "en-us"
 theme = "ananke"
 
